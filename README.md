@@ -29,7 +29,7 @@ My deliverables will be the Jupyter notebook that includes codes and some notes.
 
 This data set is very clean. I plotted 6 images from each category as an example. my plots will be found under plots folder.
 
-## 3. Data Wranling
+## 3. Data Wrangling
 
 This dataset has no separate train and test sets. All images are categorized under its own subfolder with the same name. These folders are in the “../input/ecg-images/MITBIH_img” folder. For model training we need to split the dataset and also if you are working on Kaggle you have to copy your files under “../working” subfolder. I chose a 0.2 split ratio. For this reason I created “../working/test” and “../working/train” subfolders on Kaggle.. These test and train folders have 5 subfolders. From each categorical subfolder(“../input/ecg-images/MITBIH_img/ ”), the first 20% of the images are copied to its related test subfolders and the rest are copied to related train subfolders.
 
@@ -37,7 +37,8 @@ This dataset has no separate train and test sets. All images are categorized und
 
 Predictive models are run at Kaggle servers. GPU is used because GPU is faster than CPU. Convolutional Neural Network(CNN) is used for classification. I used the PyTorch package. PyTorch package is more flexible than other packages.
 
-THANK YOU.
+THANK YOU
+
 MURAT
 
 
